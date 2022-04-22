@@ -95,27 +95,14 @@ body.full-page {
         height: 90vh; } }
 
 .logo {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
-          flex: 1 1 auto;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-          flex-direction: column;
-  -webkit-align-self: right;
-          align-self: right;
   -webkit-animation: fadein 2s;
           animation: fadein 2s; }
-  @media (max-width: 500px) {
-    .logo {
-      -webkit-align-self: right;
-              align-self: right; } }
   .logo img {
     max-width: 165px;
-    height: auto; }
+    height: auto; 
+	position:relative;
+	margin-top: 50px;
+	margin-right: 50px}
 
 .bio {
   -webkit-box-flex: 1;
