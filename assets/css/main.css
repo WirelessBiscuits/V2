@@ -86,14 +86,8 @@ body.full-page {
     max-width: 165px;
     height: auto; 
 	position: relative;
-  right: 20px;
-  top: 20px;
-  left: 20px;
-  margin-top: 20px;
-  margin-right: 20px;
-  margin-left: 20px;
-  margin-bottom: 20px;
-	z-index: 1000;}
+  vertical-align:middle;margin:30px 0px;
+	}
 
 .bio {
   -webkit-box-flex: 1;
