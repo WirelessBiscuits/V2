@@ -105,14 +105,14 @@ body.full-page {
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
           flex-direction: column;
-  -webkit-align-self: left;
-          align-self: left;
+  -webkit-align-self: right;
+          align-self: right;
   -webkit-animation: fadein 2s;
           animation: fadein 2s; }
   @media (max-width: 500px) {
     .logo {
-      -webkit-align-self: left;
-              align-self: left; } }
+      -webkit-align-self: right;
+              align-self: right; } }
   .logo img {
     max-width: 165px;
     height: auto; }
