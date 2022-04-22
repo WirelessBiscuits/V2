@@ -9,20 +9,6 @@ body {
   -moz-font-feature-settings: "liga" on;
   margin: 0; }
 
-img.alignright {
-  float: right; }
-
-img.alignleft {
-  float: left; }
-
-img.aligncenter {
-  clear: both;
-  display: block;
-  margin-right: auto;
-  margin-left: auto; }
-
-video.alignright {
-  float: right; }
 
 body {
   background-color: #000000;
@@ -65,7 +51,7 @@ body.full-page {
   body.full-page p {
     margin-bottom: 28px;
     color: #999999; }
-    @media (max-width: 800px) {
+    @media (max-width: 500px) {
       body.full-page p {
         font-size: 20px;
         line-height: 27px; } }
