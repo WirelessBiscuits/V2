@@ -42,17 +42,20 @@ html {
 
 body.full-page {
   height: auto;
+	width: 100%;
   background-color: #141414;
   font-family: 'Courier New', monospace;
   font-weight: 500;
   font-size: 25px;
   line-height: 30px;
   color: #999999; }
-  body.full-page p {
+  body.full-page 
+p {
     margin-bottom: 28px;
-    color: #999999; }
+    color: #999999;}
     @media (max-width: 500px) {
-      body.full-page p {
+  body.full-page 
+		p {
         font-size: 20px;
         line-height: 27px; } }
 
@@ -61,6 +64,7 @@ body.full-page {
     overflow: visible;
     position: absolute;
     height: 928px;
+	width: auto;
 }
   @media (max-width: 500px) {
     .info {
@@ -86,7 +90,8 @@ body.full-page {
     max-width: 165px;
     height: auto; 
 	position: relative;
-  vertical-align:middle;margin:30px 0px;
+  vertical-align:middle;
+	  margin:30px 0px;
 	}
 
 .bio {
@@ -135,6 +140,8 @@ body.full-page {
       color: #999999; }
 
 .video{
+	 width: 100%;
+  height: auto;
 	border: #ffffff
 	
 }
