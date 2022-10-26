@@ -13,7 +13,7 @@
 
 
 body {
-	cursor: crosshair;
+	cursor: url(https://raw.githubusercontent.com/WirelessBiscuits/V2/main/assets/cursors/crosshair-cursor-0_1.png), auto;
 	line-height: 1;
 	background-color: #141414;
 	font-family: 'Courier New', monospace;
@@ -26,7 +26,9 @@ body {
   -moz-font-feature-settings: "liga" on;
 	}
 
-a {text-decoration: none;}
+a {text-decoration: none;
+cursor: url(https://raw.githubusercontent.com/WirelessBiscuits/V2/main/assets/cursors/crosshair-cursor-0_1.png), auto;
+}
 
 .hero-img {
 	animation: fadein 2s;
