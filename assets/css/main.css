@@ -13,9 +13,8 @@
 
 
 body {
-	cursor: url(https://raw.githubusercontent.com/WirelessBiscuits/V2/main/assets/cursors/crosshair-cursor-0_1.png), auto;
 	line-height: 1;
-	background-color: #141414;
+	
 	font-family: 'Courier New', monospace;
 	}
 
@@ -24,10 +23,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   -moz-font-feature-settings: "liga" on;
+  font-feature-settings: "liga" 0; 
+  background-color:  #141414;
+  cursor: url(/assets/cursors/crosshair-cursor-0_2.png), url(/assets/cursors/crosshair-cursor-0_2.svg) 10 10, crosshair;
 	}
 
 a {text-decoration: none;
-cursor: url(https://raw.githubusercontent.com/WirelessBiscuits/V2/main/assets/cursors/crosshair-cursor-0_1.png), auto;
+cursor: url(/assets/cursors/x-cross-cursor.png), url(/assets/cursors/x-cross-cursor.svg) 10 10, crosshair;
 }
 
 .hero-img {
@@ -39,7 +41,6 @@ cursor: url(https://raw.githubusercontent.com/WirelessBiscuits/V2/main/assets/cu
 
 	.content {
 			  height: auto;
-				background-color: #141414 ;
 			  font-family: 'Courier New', monospace;
 			  font-weight: 500;
 			  font-size: 23px;
@@ -60,7 +61,7 @@ cursor: url(https://raw.githubusercontent.com/WirelessBiscuits/V2/main/assets/cu
 .full-page {
     padding: 5vh 5vw;
     position: relative;
-    z-index: 1000;
+    z-index: 10;
     height: 1000px;
 }
 
