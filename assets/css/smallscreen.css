@@ -1,0 +1,102 @@
+@keyframes
+	fadein {
+		from {opacity:0;}
+		to {opacity:1;}
+	}
+@keyframes
+	blink {from
+		{opacity:0;}
+		50% {opacity:1;}
+		to {opacity:0;}
+	}
+
+
+
+body {
+	padding: 5vh 5vw;
+	background-color:  #141414;
+	font-family: 'consolas', monospace;
+}
+
+* {
+  font-feature-settings: "liga" 0;  
+  cursor: url(/assets/cursors/crosshair-cursor-0_2.png), url(/assets/cursors/crosshair-cursor-0_2.svg) 10 10, crosshair;
+}
+
+::selection {
+	background: #14e2bd;
+	color:black;
+  }
+
+a {text-decoration: none;
+	cursor: url(/assets/cursors/x-cross-cursor.png), url(/assets/cursors/x-cross-cursor.svg) 10 10, crosshair;
+}
+
+
+.hero-img {
+	animation: fadein 2s;
+	max-width: 200%;
+	height: auto; 
+	transform: translateX(-37%);
+}
+.hero-img-box{
+	
+		width: 100%;
+		height: auto;
+		display: block;
+		margin: auto;
+		overflow-x: hidden;
+		overflow-y: hidden;
+}
+.construction-text{
+	font-size: 16px;
+}
+.content {
+	height: auto;
+	font-size: 20px;
+	color: #999999;
+	animation: fadein 4s;
+	}
+
+	.content p {
+		margin-bottom: auto;
+	}
+			  
+	.content a {
+		color: #CCCCCC;
+	}
+
+	.content a:hover {
+		color: #14e2bd;
+		transition: 0.2s;
+	}
+.socials {
+	margin-bottom: 50px;
+}
+
+.underscore-thing {
+	animation: blink 1.5s infinite;
+	color: #14e2bd;
+
+
+}
+
+.statement{
+	font-size: 12px;
+}
+.egg p.foot-thing {
+	animation: fadein 8s;
+    font-size: 9px;
+    line-height: 20px;
+    font-weight: 10;
+    opacity: 0.4;
+	padding-top: 50px;
+	padding-bottom:  50px;
+}
+
+    .egg p.foot-thing a {
+      color: #999999; 
+	}
+	.egg p.foot-thing a:hover {
+	    color: #373737; 
+	}
