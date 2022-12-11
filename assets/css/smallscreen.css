@@ -13,7 +13,7 @@
 
 
 body {
-	padding: 5vh 5vw;
+	padding: 4.5vh 5vw;
 	background-color:  #141414;
 	font-family: 'consolas', monospace;
 }
@@ -35,9 +35,9 @@ a {text-decoration: none;
 
 .hero-img {
 	animation: fadein 2s;
-	max-width: 200%;
+	max-width: 240%;
 	height: auto; 
-	transform: translateX(-37%);
+	transform: translateX(-43%);
 }
 .hero-img-box{
 	
@@ -72,6 +72,7 @@ a {text-decoration: none;
 	}
 .socials {
 	margin-bottom: 50px;
+	padding-left: 0.5%;
 }
 
 .underscore-thing {

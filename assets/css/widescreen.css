@@ -70,11 +70,10 @@ a {text-decoration: none;
 .email{
 	color: #CCCCCC;
 }
+
 .underscore-thing {
 	animation: blink 1.5s infinite;
 	color: #14e2bd;
-	padding-left: 0.5%;
-
 }
 
 .statement{
